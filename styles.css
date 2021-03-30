@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font: arial;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-div {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    height: 60px;
+}
+
+.gmail-images {
+    float: right;
+    top: 0;
+    right: 0;
+}
+
+.logo-div {
+    
+}
+
+.search-field {
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 17px;
+    height: 34px;
+    width: 400px;
+    
+}
